@@ -9,6 +9,7 @@
     box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
     overflow: hidden;
     background-color: #cd853f;
+    /*background-color: none;*/
     transition-timing-function: ease-in;
     transition: all 0.5s;
 }
@@ -43,7 +44,7 @@
 .navBtn {
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 140px;
 }
 
 @media screen and (max-width: 568px) {
