@@ -1,25 +1,26 @@
-/** { margin: 0; padding: 0; }*/
-/*html, body { height: 100%; }*/
-/*body {*/
-/*    overflow: hidden;*/
-/*    position: relative;*/
-/*    background: slategray url(http://theearlcarlson.com/experiments/amTooltip/img/bg.jpg) 50% no-repeat;*/
-/*}*/
-
-.socialMedia {
-    /*z-index: 999;*/
-}
 
 /* generic styles for button & circular menu */
+.ctrlBtn {
+    position: absolute;
+    top: 18%;
+    right: 3%;
+
+    font: 1.5em/1.13 Verdana, sans-serif;
+    transition: .5s;
+}
+
+
 .ctrl {
     position: absolute;
-    top: 23%; right: 6%;
+    top: 23%;
+    right: 6%;
+
     font: 1.5em/1.13 Verdana, sans-serif;
     transition: .5s;
 }
 
 /* generic link styles */
-a.ctrl, .ctrl div {
+a.ctrlBtn, a.ctrl, .ctrlBtn div, .ctrl div {
     display: block;
     opacity: .56;
     background: #c9c9c9;
@@ -29,8 +30,8 @@ a.ctrl, .ctrl div {
     text-shadow: 0 -1px dimgrey;
     cursor: pointer;
 }
-a.ctrl:hover, .ctrl div:hover, a.ctrl:focus { opacity: 1; }
-a.ctrl:focus { outline: none; }
+a.ctrlBtn:hover, a.ctrl:hover, .ctrlBtn div:hover, .ctrl div:hover, a.ctrlBtn:focus, a.ctrl:focus { opacity: 1; }
+a.ctrlBtn:focus, a.ctrl:focus { outline: none; }
 .button {
     z-index: 200;
     margin: -.625em;
@@ -62,6 +63,9 @@ a.ctrl:focus { outline: none; }
     background: #c9c9c9;
     content: '';
 }
+
+
+
 .tip:before {
     left: 11.8%;
     border-radius: .25em 0 0 .25em;
@@ -84,6 +88,7 @@ a.ctrl:focus { outline: none; }
     transform: rotate(330deg);
 
 }
+
 
 /* make the menu appear on click */
 .button:focus + .tip {
@@ -160,4 +165,62 @@ a.ctrl:focus { outline: none; }
     transform: rotate(45deg);
     background: linear-gradient(-45deg, #c9c9c9 50%, transparent 50%);
     content: '';
+}
+
+@media screen and (max-width: 568px) {
+
+    .ctrlBtn {
+        position: absolute;
+        top: 95%;
+        left: 10%;
+        font: 1.5em/1.13 Verdana, sans-serif;
+        transition: .5s;
+    }
+
+    .ctrl {
+        position: absolute;
+        top: 90%;
+        left: 20%;
+        font: 1.5em/1.13 Verdana, sans-serif;
+        transition: .5s;
+    }
+
+    .tip:before, .tip:after {
+        position: absolute;
+        top: 6.9%;
+        width: .5em;
+        height: 14%;
+        opacity: .56;
+        background: #c9c9c9;
+        content: '';
+    }
+
+    .tip:before {
+        left: 23.7%;
+        border-radius: .25em 0 0 .25em;
+        box-shadow: -1px 0 1px dimgrey, inset 1px 0 1px white, inset -1px 0 1px grey,
+        inset 0 1px 1px white, inset 0 -1px 1px white;
+        transform: rotate(330deg);
+
+    }
+
+    .tip:after {
+        position: absolute;
+        top: 66.8%;
+        width: .5em;
+
+        right: 11.7%;
+        border-radius: 0 .25em .25em 0;
+        box-shadow: 1px 0 1px dimgrey, inset -1px 0 1px white, inset 1px 0 1px grey,
+        inset 0 1px 1px white, inset 0 -1px 1px white;
+        transform: rotate(120deg);
+
+    }
+
+    .slice:first-child { transform: rotate(0deg) skewY(-300deg); }
+    .slice:nth-child(2) { transform: rotate(30deg) skewY(-300deg); }
+    .slice:nth-child(3) { transform: rotate(60deg) skewY(-300deg); }
+    .slice:nth-child(4) { transform: rotate(90deg) skewY(-300deg); }
+    .slice:last-child { transform: rotate(120deg) skewY(-300deg); }
+
 }

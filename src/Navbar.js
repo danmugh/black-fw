@@ -1,10 +1,8 @@
 import React from 'react';
 import "./Navbar.css"
-import {BrowserRouter as Router, Link, NavLink} from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import { menuData } from "./menuData";
-import { MenuFoldOutlined } from "@ant-design/icons"
-import FollowBtn from "./FollowBtn";
-import SocialMedia from "./SocialMedia";
+import { MenuFoldOutlined } from "@ant-design/icons";
 
 
 const Navbar = () => {
@@ -32,7 +30,7 @@ const Navbar = () => {
             </div>
 
             <div className="navBtn" >
-                {/*<SocialMedia />*/}
+
             </div>
 
         </nav>

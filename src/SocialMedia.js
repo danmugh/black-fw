@@ -9,8 +9,8 @@ import { MediumOutlined,
 
 const SocialMedia = () => {
     return (
-        <div className="socialMedia">
-            <a className='button ctrl' href='#' tabIndex='1'>
+        <div>
+            <a className='button ctrlBtn' href='#' tabIndex='1'>
                 <MediumOutlined />
             </a>
             <ul className='tip ctrl'>

@@ -8,16 +8,19 @@
     width: 100%;
     box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
     overflow: hidden;
-    background-color: #cd853f;
+    background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);
     /*background-color: none;*/
     transition-timing-function: ease-in;
     transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
 .logo {
     font-style: italic;
     font-size: 25px;
     text-decoration: none;
+    font-family: 'Cinzel', serif;
 }
 
 .navLink {
@@ -27,7 +30,8 @@
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    text-decoration: none
+    text-decoration: none;
+
 }
 
 .navMenu {
@@ -59,7 +63,7 @@
         width: 100%;
         box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
         overflow: hidden;
-        background-color: #cd853f;
+        background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);
         transition-timing-function: ease-in;
         transition: all 0.5s;
     }
