@@ -3,16 +3,17 @@ import "./Navbar.css"
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { menuData } from "./menuData";
 import { MenuFoldOutlined } from "@ant-design/icons";
-
+import Logo from "./assets/Police BLACK FW.png"
 
 const Navbar = () => {
 
     return (
         <nav className="nav">
-            <div className="logo">
+            <div className="logo" >
                 <Router>
                     <Link to="#" className="navLink" >
-                        Logo
+                        {/*Logo*/}
+                        <img className="black__police" src={ Logo } />
                     </Link>
                 </Router>
             </div>
