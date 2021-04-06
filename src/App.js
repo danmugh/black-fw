@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from "./Navbar";
 import SocialMedia from "./SocialMedia";
+import Hero from "./Hero";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Navbar />
       <SocialMedia />
+      <Hero />
     </div>
   );
 }

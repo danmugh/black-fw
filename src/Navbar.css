@@ -8,8 +8,8 @@
     width: 100%;
     box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
     overflow: hidden;
-    background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);
-    /*background-color: none;*/
+    /*background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);*/
+    background-color: darkred;
     transition-timing-function: ease-in;
     transition: all 0.5s;
     font-family: 'Montserrat', sans-serif;
@@ -63,7 +63,8 @@
         width: 100%;
         box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
         overflow: hidden;
-        background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);
+        /*background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);*/
+        background-color: darkred;
         transition-timing-function: ease-in;
         transition: all 0.5s;
     }

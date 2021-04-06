@@ -1,0 +1,108 @@
+.section__container {
+    height: 100vh;
+    max-height: 1100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__wrapper {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin-top: 50px;
+    /*padding-top: 80px;*/
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.hero__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero__content {
+    position: relative;
+    left: 05px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    width: calc(100% - 100px);
+    color: #fff;
+
+}
+
+.hero__content h1 {
+    font-size: clamp(1rem, 8vw, 2rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    margin-bottom: 0.8rem;
+}
+
+.hero__content p {
+    margin-bottom: 1.2rem;
+    text-align: left;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hero__button {
+    background: black;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    min-width: 100px;
+    max-width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 42px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.hero__button:hover {
+    /*transform: translateY() (-2px);*/
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero__content {
+        position: relative;
+        left: -27px;
+        z-index: 10;
+
+        /*background-color: red;*/
+    }
+
+    .hero__button {
+        background: black;
+        white-space: nowrap;
+        outline: none;
+        border: none;
+        min-width: 100px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 42px;
+        color: #fff;
+        font-size: 14px;
+
+        max-width: 110px
+    }
+}
+
