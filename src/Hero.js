@@ -14,9 +14,8 @@ const Hero = () => {
                         src={FW_Cover_2}
                         className="hero__image" />
                     <div className="hero__content" >
-                        <h1>Luxury Villa in Beverly Hills, California</h1>
-                        <p>$4, 380, 000</p>
-
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <Router>
                             <Link
                                 to="#"

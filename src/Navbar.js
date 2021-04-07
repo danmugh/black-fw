@@ -18,7 +18,7 @@ const Navbar = () => {
                 </Router>
             </div>
 
-            <MenuFoldOutlined className="menu__bars" style={{ fontSize: '30px' }} />
+            <MenuFoldOutlined className="menu__bars" style={{ fontSize: '30px', color: 'white' }} />
 
             <div className="navMenu">
                 {menuData.map((item, index) => (
