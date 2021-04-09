@@ -11,7 +11,10 @@ const SocialMedia = () => {
 
     return (
         <div>
-            <a className='button ctrlBtn' href='#' tabIndex='1'>
+            <a
+                className='button ctrlBtn'
+                // href='#'
+                tabIndex='1'>
                 <MediumOutlined />
             </a>
             <ul className='tip ctrl'>

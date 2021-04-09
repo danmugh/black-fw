@@ -5,6 +5,7 @@ import SocialMedia from "./SocialMedia";
 import Hero from "./Hero";
 import About from "./about";
 import Band from "./Band";
+import Gallery from "./Gallery";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Band />
 
+      <Gallery />
     </div>
   );
 }
