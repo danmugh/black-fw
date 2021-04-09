@@ -1,22 +1,26 @@
 
 /* generic styles for button & circular menu */
 .ctrlBtn {
-    position: absolute;
+    /*position: absolute;*/
+    position: fixed;
     top: 18%;
     right: 3%;
 
     font: 1.5em/1.13 Verdana, sans-serif;
     transition: .5s;
+    z-index: 999;
 }
 
 
 .ctrl {
-    position: absolute;
+    /*position: absolute;*/
+    position: fixed;
     top: 23%;
     right: 6%;
 
     font: 1.5em/1.13 Verdana, sans-serif;
     transition: .5s;
+    z-index: 999;
 }
 
 /* generic link styles */
@@ -33,6 +37,7 @@ a.ctrlBtn, a.ctrl, .ctrlBtn div, .ctrl div {
 a.ctrlBtn:hover, a.ctrl:hover, .ctrlBtn div:hover, .ctrl div:hover, a.ctrlBtn:focus, a.ctrl:focus { opacity: 1; }
 a.ctrlBtn:focus, a.ctrl:focus { outline: none; }
 .button {
+
     z-index: 200;
     margin: -.625em;
     width: 1.25em; height: 1.25em;
@@ -170,19 +175,23 @@ a.ctrlBtn:focus, a.ctrl:focus { outline: none; }
 @media screen and (max-width: 568px) {
 
     .ctrlBtn {
-        position: absolute;
+        /*position: absolute;*/
+        position: fixed;
         top: 95%;
         left: 10%;
         font: 1.5em/1.13 Verdana, sans-serif;
         transition: .5s;
+        z-index: 999;
     }
 
     .ctrl {
-        position: absolute;
+        /*position: absolute;*/
+        position: fixed;
         top: 90%;
         left: 20%;
         font: 1.5em/1.13 Verdana, sans-serif;
         transition: .5s;
+        z-index: 999;
     }
 
     .tip:before, .tip:after {

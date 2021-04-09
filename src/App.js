@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import SocialMedia from "./SocialMedia";
 import Hero from "./Hero";
 import About from "./about";
+import Band from "./Band";
 
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
       <Navbar />
       <SocialMedia />
       <Hero />
-      <div className="pages__container" >
-          <About />
-      </div>
+
+      <About />
+      <Band />
 
     </div>
   );

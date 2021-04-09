@@ -8,6 +8,7 @@ import { MediumOutlined,
     YoutubeOutlined } from "@ant-design/icons"
 
 const SocialMedia = () => {
+
     return (
         <div>
             <a className='button ctrlBtn' href='#' tabIndex='1'>

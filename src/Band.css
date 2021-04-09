@@ -1,0 +1,58 @@
+.bandPage__container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: white;
+
+    padding-bottom: 50px;
+}
+
+.bandPage__text {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bandPage__text h3 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 22px;
+    /*color: #111;*/
+    color: #000000;
+    font-family: 'Cinzel', serif;
+}
+
+.bandPage__text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.band__item {
+    display: block;
+}
+
+.band__item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.band__avatar {
+    font-size: 30px;
+    color: red;
+}
+
+@media screen and (max-width: 568px) {
+
+    .bandPage__container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+        background-color: white;
+    }
+
+}
