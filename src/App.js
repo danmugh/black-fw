@@ -7,6 +7,7 @@ import About from "./about";
 import Band from "./Band";
 import Gallery from "./Gallery";
 import GallerySmallDevice from "./Gallery2";
+import Videos from "./Videos";
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
 
         { gallery }
 
+      <Band />
+      <Videos />
     </div>
   );
 }
