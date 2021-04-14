@@ -32,11 +32,13 @@
 }
 
 .profile {
-    /*background-color: crimson;*/
 
     background-image: url('./assets/img__3.jpeg');
     background-size: cover;
     background-position:center center;
+
+    /*-webkit-filter: grayscale(90%);*/
+    filter: grayscale(90%);
 }
 
 @media screen and (max-width: 568px) {
@@ -48,4 +50,12 @@
         background-color: black;
     }
 
+    .biography p {
+        /*font-family: 'Raleway', sans-serif;*/
+        /*font-size: 20px;*/
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 1.4;
+    }
 }

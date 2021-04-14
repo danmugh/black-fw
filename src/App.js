@@ -6,9 +6,21 @@ import Hero from "./Hero";
 import About from "./about";
 import Band from "./Band";
 import Gallery from "./Gallery";
+import GallerySmallDevice from "./Gallery2";
 
 
 function App() {
+
+    let gallery = (
+        <Gallery />
+    )
+
+    if ( isMobile() ) {
+        gallery = (
+            <GallerySmallDevice />
+        )
+    }
+
   return (
     <div className="app">
       <Navbar />
@@ -18,9 +30,26 @@ function App() {
       <About />
       <Band />
 
-      <Gallery />
+        { gallery }
+
     </div>
   );
+}
+
+function isMobile() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
 }
 
 export default App;

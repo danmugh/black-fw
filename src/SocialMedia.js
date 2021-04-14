@@ -11,16 +11,22 @@ const SocialMedia = () => {
 
     return (
         <div>
+
             <a
                 className='button ctrlBtn'
                 // href='#'
                 tabIndex='1'>
                 <MediumOutlined />
             </a>
+
+            {/*<div className='button ctrlBtn' tabIndex='1' >*/}
+            {/*    <p className="follow-me">Follow me</p>*/}
+            {/*</div>*/}
+
             <ul className='tip ctrl'>
-                <li className='slice'>
+                <li className='slice facebook__icon'>
                     <div>
-                        <FacebookOutlined />
+                        <FacebookOutlined  />
                     </div>
                 </li>
                 <li className='slice'>
