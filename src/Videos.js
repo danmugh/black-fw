@@ -1,12 +1,64 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Videos.css";
 import { PlayCircleOutlined } from "@ant-design/icons";
 import { Row, Col } from 'antd';
+import YouTube from "react-youtube";
+
+// https://www.youtube.com/channel/UCwlOvQPLbA0L3dWGRj1aLSA/videos
+
+
+// https://youtu.be/0jYichq_24Y
 
 const Videos = () => {
+    const [trailerUrl, setTrailerUrl] = useState("");
 
     const playHandle = () => {
         alert('Hey, now you play videos')
+    }
+
+    const GRTFL = () => {
+
+        setTrailerUrl("bI8NAf2c5IY")
+
+        // if (trailerUrl) {
+        //     setTrailerUrl("");
+        // } else {
+        //     setTrailerUrl("bI8NAf2c5IY")
+        // }
+    }
+
+    const Talk = () => {
+
+        setTrailerUrl('YHGadROIUXE')
+
+    }
+
+    const BlackMamba = () => {
+
+        setTrailerUrl("jY4LwBUVyP4")
+
+    }
+
+    const MamaAfirca = () => {
+
+        setTrailerUrl("0jYichq_24Y")
+
+    }
+
+    const BestBoys = () => {
+
+        setTrailerUrl('HqJ1qP05Si0')
+
+    }
+
+
+    const opts = {
+        height: '380',
+        width: '100%',
+        playerVars: {
+            autoplay: 1,
+        }
+
     }
 
     return (
@@ -20,28 +72,28 @@ const Videos = () => {
             </div>
             <div className="videosList__wrapper" >
                 <Row>
-                    <Col span={10} className="videosList__items" >
+                    <Col span={7} className="videosList__items" >
                         <div className="items">
-                            <a className="items__link">
+                            <a className="items__link" onClick={GRTFL} >
                                 GRTFL
                             </a>
-                            <a className="items__link">
+                            <a className="items__link" onClick={Talk} >
                                 Talk T.I.N.D
                             </a>
-                            <a  className="items__link">
+                            <a  className="items__link" onClick={BlackMamba} >
                                 Black Mamba
                             </a>
-                            <a className="items__link">
+                            <a className="items__link" onClick={MamaAfirca} >
                                 Mama Afirca
                             </a>
-                            <a  className="items__link">
+                            <a  className="items__link" onClick={BestBoys} >
                                 Best Boys
                             </a>
 
                         </div>
                     </Col>
-                    <Col span={14} className="videosList__youtube" >
-
+                    <Col span={17} className="videosList__youtube" >
+                        <YouTube videoId={trailerUrl} opts={opts}/>
                     </Col>
 
                 </Row>

@@ -1,5 +1,4 @@
 .videos__wrapper {
-    background-color: darkred;
     background-image: url('./assets/vidz__1.jpeg');
     background-size: cover;
     background-position:center center;
@@ -30,10 +29,16 @@
 }
 
 .videosList__wrapper {
-    /*background-color: #9b305e;*/
+    background-color: #000000;
+
+    padding-left: 12vw;
+    padding-right: 12vw;
+
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 
     width: 100vw;
-    height: 40vh;
+    height: 55vh;
 }
 
 .videosList__items {
@@ -55,7 +60,7 @@
 .items__link {
     display: flex;
     align-items: center;
-    color: #000000;
+    color: #ffffff;
     padding: 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -72,5 +77,5 @@
 }
 
 .videosList__youtube {
-    background-color: #24ac1a;
+    /*background-color: #24ac1a;*/
 }

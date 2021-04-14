@@ -35,6 +35,7 @@ function App() {
 
       <Band />
       <Videos />
+      <Band />
     </div>
   );
 }
