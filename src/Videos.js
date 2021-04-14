@@ -21,12 +21,23 @@ const Videos = () => {
             <div className="videosList__wrapper" >
                 <Row>
                     <Col span={10} className="videosList__items" >
-                        <div className="list" >
-                            <ol>
-                                <li><a >Formget Online Form Builder Create Online Forms</a></li>
-                                <li><a >Formget Online Form Builder Create Online Forms</a></li>
-                                <li><a >Formget Online Form Builder Create Online Forms</a></li>
-                            </ol>
+                        <div className="items">
+                            <a className="items__link">
+                                GRTFL
+                            </a>
+                            <a className="items__link">
+                                Talk T.I.N.D
+                            </a>
+                            <a  className="items__link">
+                                Black Mamba
+                            </a>
+                            <a className="items__link">
+                                Mama Afirca
+                            </a>
+                            <a  className="items__link">
+                                Best Boys
+                            </a>
+
                         </div>
                     </Col>
                     <Col span={14} className="videosList__youtube" >
