@@ -4,16 +4,14 @@ import { PlayCircleOutlined } from "@ant-design/icons";
 import { Row, Col } from 'antd';
 import YouTube from "react-youtube";
 
-// https://www.youtube.com/channel/UCwlOvQPLbA0L3dWGRj1aLSA/videos
-
-
-// https://youtu.be/0jYichq_24Y
 
 const Videos = () => {
-    const [trailerUrl, setTrailerUrl] = useState("");
+    const [trailerUrl, setTrailerUrl] = useState("YHGadROIUXE");
+    const [showVideosList, setVideosList] = useState(false);
 
     const playHandle = () => {
-        alert('Hey, now you play videos')
+        // alert('Hey, now you play videos')
+        setVideosList(true)
     }
 
     const GRTFL = () => {
@@ -65,39 +63,54 @@ const Videos = () => {
         <div>
             <div className="videos__wrapper" >
 
-                <p className="videos__text" >WATCH MY <span>
-                    <PlayCircleOutlined className="play__icon"
-                                        onClick={playHandle} />
-                </span>   VIDEOS</p>
-            </div>
-            <div className="videosList__wrapper" >
-                <Row>
-                    <Col span={7} className="videosList__items" >
-                        <div className="items">
-                            <a className="items__link" onClick={GRTFL} >
-                                GRTFL
-                            </a>
-                            <a className="items__link" onClick={Talk} >
-                                Talk T.I.N.D
-                            </a>
-                            <a  className="items__link" onClick={BlackMamba} >
-                                Black Mamba
-                            </a>
-                            <a className="items__link" onClick={MamaAfirca} >
-                                Mama Afirca
-                            </a>
-                            <a  className="items__link" onClick={BestBoys} >
-                                Best Boys
-                            </a>
+                {/*<p className="videos__text" >WATCH MY <span>*/}
+                {/*    <PlayCircleOutlined className="play__icon"*/}
+                {/*                        onClick={playHandle} />*/}
+                {/*</span> <span style={{ display: 'inline-block', width: '10px' }} > </span>VIDEOS</p>*/}
 
-                        </div>
-                    </Col>
-                    <Col span={17} className="videosList__youtube" >
-                        <YouTube videoId={trailerUrl} opts={opts}/>
-                    </Col>
-
-                </Row>
+                <div className="videos__typography" >
+                    <span>WATCH MY</span>
+                    {/*<span style={{ display: 'inline-block', width: '10px' }} > </span>*/}
+                    <span>
+                        <PlayCircleOutlined className="play__icon"
+                                            onClick={playHandle} />
+                    </span>
+                    {/*<span style={{ display: 'inline-block', width: '10px' }} > </span>*/}
+                    <span>VIDEOS</span>
+                </div>
             </div>
+            {
+                showVideosList &&
+                <div className="videosList__wrapper" >
+                    <Row>
+                        <Col span={7} className="videosList__items" >
+                            <div className="items">
+                                <a className="items__link" onClick={GRTFL} >
+                                    GRTFL
+                                </a>
+                                <a className="items__link" onClick={Talk} >
+                                    Talk T.I.N.D
+                                </a>
+                                <a  className="items__link" onClick={BlackMamba} >
+                                    Black Mamba
+                                </a>
+                                <a className="items__link" onClick={MamaAfirca} >
+                                    Mama Afirca
+                                </a>
+                                <a  className="items__link" onClick={BestBoys} >
+                                    Best Boys
+                                </a>
+
+                            </div>
+                        </Col>
+                        <Col span={17} className="videosList__youtube" >
+                            <YouTube videoId={trailerUrl} opts={opts}/>
+                        </Col>
+
+                    </Row>
+                </div>
+            }
+
         </div>
     );
 };

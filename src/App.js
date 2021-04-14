@@ -8,6 +8,7 @@ import Band from "./Band";
 import Gallery from "./Gallery";
 import GallerySmallDevice from "./Gallery2";
 import Videos from "./Videos";
+import Testimony from "./Testimony";
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
       <Band />
       <Videos />
       <Band />
+
+      <Testimony />
     </div>
   );
 }
