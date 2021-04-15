@@ -68,6 +68,7 @@ const Videos = () => {
                 {/*</span> <span style={{ display: 'inline-block', width: '10px' }} > </span>VIDEOS</p>*/}
 
                 <div className="videos__typography" >
+                    {/*<span>WATCH MY</span>*/}
                     <span>WATCH MY</span>
                     {/*<span style={{ display: 'inline-block', width: '10px' }} > </span>*/}
                     <span>
