@@ -2,7 +2,10 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import './slider-animations.css';
-import './styles.css';
+import './Testimony.css';
+
+import Quote from "./assets/quote__2.png"
+import {Avatar} from "antd";
 
 const content = [
     {
@@ -37,7 +40,9 @@ const content = [
 
 const Testimony = () => (
     <div>
-        <Slider className="slider-wrapper" autoplay={2000} >
+        <Slider className="slider-wrapper"
+                autoplay={2000}
+        >
             { content.map((item, index) => (
                 <div
                     key={index}
@@ -46,9 +51,22 @@ const Testimony = () => (
                 >
                     <div className="inner">
                         <h1>WHAT FANS SAY</h1>
+                        <br/>
+                        <span className="span__avatar" >
 
-                        {/*<span className="glyphicon glyphicon-flash" aria-hidden="true"*/}
-                        {/*      style={{ color: 'aliceblue', fontSize: '50px' }} > </span>*/}
+                            {/*<Avatar*/}
+                            {/*    src={ Quote }*/}
+                            {/*    size={{*/}
+                            {/*        sm: 75,*/}
+                            {/*        md: 95,*/}
+                            {/*        lg: 105,*/}
+                            {/*        xl: 105,*/}
+                            {/*    }}*/}
+                            {/*/>*/}
+
+                            <img src={ Quote } className="img__quote" />
+
+                        </span>
 
                         <p>{item.description}</p>
                         <div className="center__user" >

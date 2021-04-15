@@ -5,17 +5,16 @@
     opacity: 0;
 }
 
-.slide button {
+.slide p {
     transition: all 0.3s ease;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
     opacity: 0;
 }
 
-.slide p {
-    transition: all 0.3s ease;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+.slide span img {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -50,6 +49,9 @@
 .slide.animateIn.previous p,
 .slide.current p,
 .slide.animateIn.next p,
+.slide.animateIn.previous span img,
+.slide.current span img,
+.slide.animateIn.next span img,
 .slide.animateIn.previous section *,
 .slide.current section *,
 .slide.animateIn.next section * {
@@ -73,7 +75,9 @@
 }
 
 .slide.animateIn.previous section img,
-.slide.animateIn.next section img {
+.slide.animateIn.previous span img,
+.slide.animateIn.next section img,
+.slide.animateIn.next span img {
     -webkit-transition-delay: 1.3s;
     transition-delay: 1.3s;
 }
