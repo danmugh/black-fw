@@ -71,6 +71,7 @@
 }
 
 .slider-content .inner {
+
     padding: 0 70px;
     box-sizing: border-box;
     position: absolute;
@@ -139,8 +140,8 @@
 }
 
 .span__avatar {
-    font-size: 50px;
-    /*font-size: 60px;*/
+    /*font-size: 50px;*/
+    font-size: 60px;
 
     /*background-color: red;*/
 
@@ -160,43 +161,77 @@
     align-items: center;
 
     position: relative;
-    margin-right: 14vw;
+    /*margin-right: 14vw;*/
+    margin-right: 18vw;
 }
 
 
-/*@media screen and (max-width: 480px) {*/
-/*    .slider-wrapper {*/
-/*        position: relative;*/
-/*        height: 60vh;*/
-/*        overflow: hidden;*/
-/*    }*/
+@media screen and (max-width: 480px) {
 
-/*    .slide {*/
-/*        height: 60vh;*/
-/*        background-size: cover !important;*/
+    .span__avatar {
+        font-size: 50px;
+        position: relative;
+        margin-left: 23vw;
+
+    }
+
+    .center__user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-right: 20vw;
+    }
+
+}
+
+@media (max-height: 830px) {
+
+    /*Pixel 2XL*/
+
+    .slider-wrapper, .slide {
+        height: calc(65vh - 45px);
+    }
+
+}
+
+@media (max-height: 815px) {
+
+    /*iPhone X*/
+
+    .slider-wrapper, .slide {
+        height: calc(70vh - 45px);
+    }
+}
+
+@media (max-height: 700px) {
+    .slider-wrapper, .slide {
+        height: calc(75vh - 45px);
+    }
+}
+
+@media (max-height: 650px) {
+    .slider-wrapper, .slide {
+        height: calc(80vh - 45px);
+    }
+}
+
+@media (max-width: 640px) {
+    .slider-content .inner h1 {
+        letter-spacing: 5px;
+        font-size: 26px;
+    }
+}
+
+
+/*@media only screen*/
+/*and (min-device-width: 320px)*/
+/*and (max-device-width: 568px)*/
+/*and (-webkit-min-device-pixel-ratio: 2) {*/
+/*    .slider-wrapper, .slide {*/
+/*        !*height: calc(75vh - 45px);*!*/
+/*        !*height: calc(75vh - 45px);*!*/
+
+/*        height: 80vh;*/
 /*    }*/
 /*}*/
-
-@media (max-height: 500px) {
-    .slider-wrapper, .slide {
-        height: calc(100vh - 75px);
-    }
-}
-
-@media (max-width: 640px) {
-    .slider-wrapper, .slide {
-        height: calc(80vh - 75px);
-    }
-}
-
-@media (max-height: 600px) {
-    .slider-content .inner h1 {
-        font-size: 32px;
-    }
-}
-
-@media (max-width: 640px) {
-    .slider-content .inner h1 {
-        font-size: 32px;
-    }
-}

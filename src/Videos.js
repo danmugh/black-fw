@@ -4,7 +4,6 @@ import { PlayCircleOutlined } from "@ant-design/icons";
 import { Row, Col } from 'antd';
 import YouTube from "react-youtube";
 
-
 const Videos = () => {
     const [trailerUrl, setTrailerUrl] = useState("YHGadROIUXE");
     const [showVideosList, setVideosList] = useState(false);

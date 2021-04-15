@@ -2,6 +2,8 @@ import React from 'react';
 import "./Band.css"
 import {Avatar, Col, Row} from "antd";
 import Logo from "./assets/img__3.jpeg";
+import Grtfl from "./assets/cover__grtfl FW.jpg";
+import Talk from "./assets/cover__talk.jpg";
 import { AudioOutlined, FireOutlined } from "@ant-design/icons";
 
 
@@ -30,7 +32,7 @@ const Band = () => {
                 </Col>
                 <Col span={8} className="band__item" >
                     <p>Black Mamba</p>
-                    <Avatar src={ Logo }
+                    <Avatar src={ Grtfl }
                             size={{
                                 sm: 150,
                                 md: 190,
