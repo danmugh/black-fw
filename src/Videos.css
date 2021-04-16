@@ -69,7 +69,6 @@
 
     /*background-color: blue;*/
 
-
     display: flex;
     justify-content: center;
 
@@ -104,7 +103,11 @@
     /*background-color: #24ac1a;*/
 }
 
-@media screen and (max-width: 568px) {
+
+@media screen and (max-width: 568px) and (max-height: 690px) {
+
+    /*Like Motorola G4, Galaxy S5, iPhone 6/7/8 */
+
     .videos__typography {
 
         width: 96vw;
@@ -129,7 +132,449 @@
         font-size: 50px;
         color: #f80000;
     }
+
+    .videosList__wrapper {
+        background-color: #000000;
+        /*background-color: #45be17;*/
+
+        padding-left: 0vw;
+        padding-right: 2vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+
+        width: 100vw;
+        height: 63vh;
+    }
+
+    .videosList__items {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .items {
+        /*padding: 10px;*/
+        /*background-color: red;*/
+        text-align: start;
+    }
+
+
+    .items__link {
+        display: flex;
+        align-items: start;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        transition: .4s;
+    }
+
+    .items__link:hover {
+        padding-left: 15px;
+        text-decoration: none;
+        color: #991430;
+        /*border-left: 2px solid #991430;*/
+    }
+
 }
+
+@media screen and (max-width: 568px) and (min-height: 720px) {
+
+    /* Like Pixel 2, iPhone 6/7/8 Plus */
+
+    .videos__typography {
+
+        width: 96vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /*background-color: chocolate;*/
+
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0 30px 0;
+        letter-spacing: 5px;
+        color: #000000;
+        font-family: 'Cinzel', serif;
+    }
+
+    .play__icon {
+        /*background-color: darkred;*/
+
+        font-size: 50px;
+        color: #f80000;
+    }
+
+    .videosList__wrapper {
+        background-color: #000000;
+        /*background-color: #bea817;*/
+
+        padding-left: 0vw;
+        padding-right: 2vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .videosList__items {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .items {
+        /*padding: 10px;*/
+        /*background-color: red;*/
+        text-align: start;
+    }
+
+
+    .items__link {
+        display: flex;
+        align-items: start;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        transition: .4s;
+    }
+
+    .items__link:hover {
+        padding-left: 15px;
+        text-decoration: none;
+        color: #991430;
+        /*border-left: 2px solid #991430;*/
+    }
+
+}
+
+@media screen and (max-width: 568px) and (min-height: 790px) {
+
+    /*Like Pixel 2XL, iPhone X */
+
+    .videos__typography {
+
+        width: 96vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /*background-color: chocolate;*/
+
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0 30px 0;
+        letter-spacing: 5px;
+        color: #000000;
+        font-family: 'Cinzel', serif;
+    }
+
+    .play__icon {
+        /*background-color: darkred;*/
+
+        font-size: 50px;
+        color: #f80000;
+    }
+
+    .videosList__wrapper {
+        background-color: #000000;
+        /*background-color: #174fbe;*/
+
+        padding-left: 0vw;
+        padding-right: 2vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .videosList__items {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .items {
+        /*padding: 10px;*/
+        /*background-color: red;*/
+        text-align: start;
+    }
+
+
+    .items__link {
+        display: flex;
+        align-items: start;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        transition: .4s;
+    }
+
+    .items__link:hover {
+        padding-left: 15px;
+        text-decoration: none;
+        color: #991430;
+        /*border-left: 2px solid #991430;*/
+    }
+
+}
+
+@media screen and (min-width: 600px) and (min-height: 1000px) {
+
+    /*Like iPad  */
+
+    .videos__typography {
+
+        width: 96vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /*background-color: chocolate;*/
+
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0 30px 0;
+        letter-spacing: 5px;
+        color: #000000;
+        font-family: 'Cinzel', serif;
+    }
+
+    .play__icon {
+        /*background-color: darkred;*/
+
+        font-size: 50px;
+        color: #f80000;
+    }
+
+    .videosList__wrapper {
+        background-color: #000000;
+        /*background-color: #57be17;*/
+
+        padding-left: 0vw;
+        padding-right: 2vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+
+        width: 100vw;
+        height: 43vh;
+    }
+
+    .videosList__items {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .items {
+        /*padding: 10px;*/
+        /*background-color: red;*/
+        text-align: start;
+    }
+
+
+    .items__link {
+        display: flex;
+        align-items: start;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        transition: .4s;
+    }
+
+    .items__link:hover {
+        padding-left: 20px;
+        text-decoration: none;
+        color: #991430;
+        /*border-left: 2px solid #991430;*/
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (min-height: 1300px) {
+
+    /*Like iPad Pro */
+
+    .videos__wrapper {
+        background-image: url('./assets/vidz__1.jpeg');
+        background-size: cover;
+        background-position:center center;
+
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%);
+
+        width: 100vw;
+        height: 30vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .videos__typography {
+
+        width: 96vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        /*background-color: chocolate;*/
+
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0 30px 0;
+        letter-spacing: 5px;
+        color: #000000;
+        font-family: 'Cinzel', serif;
+    }
+
+    .play__icon {
+        /*background-color: darkred;*/
+
+        font-size: 50px;
+        color: #f80000;
+    }
+
+    .videosList__wrapper {
+        background-color: #000000;
+        /*background-color: #17be97;*/
+
+        padding-left: 6vw;
+        padding-right: 6vw;
+
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+
+        width: 100vw;
+        height: 35vh;
+    }
+
+    .videosList__items {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .items {
+        /*padding: 10px;*/
+        /*background-color: red;*/
+        text-align: start;
+    }
+
+
+    .items__link {
+        display: flex;
+        align-items: start;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        transition: .4s;
+    }
+
+    .items__link:hover {
+        padding-left: 20px;
+        text-decoration: none;
+        color: #991430;
+        /*border-left: 2px solid #991430;*/
+    }
+
+}
+
+/*@media screen and (max-width: 568px) {*/
+
+/* The initial media queries */
+
+/*    .videos__typography {*/
+
+/*        width: 96vw;*/
+/*        height: 10vh;*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        align-items: center;*/
+
+/*        !*background-color: chocolate;*!*/
+
+/*        font-size: 24px;*/
+/*        font-weight: bold;*/
+/*        margin: 10px 0 30px 0;*/
+/*        letter-spacing: 5px;*/
+/*        color: #000000;*/
+/*        font-family: 'Cinzel', serif;*/
+/*    }*/
+
+/*    .play__icon {*/
+/*        !*background-color: darkred;*!*/
+
+/*        font-size: 50px;*/
+/*        color: #f80000;*/
+/*    }*/
+
+/*    .videosList__wrapper {*/
+/*        !*background-color: #000000;*!*/
+/*        background-color: #45be17;*/
+
+/*        padding-left: 0vw;*/
+/*        padding-right: 2vw;*/
+
+/*        padding-top: 2vw;*/
+/*        padding-bottom: 2vw;*/
+
+/*        width: 100vw;*/
+/*        height: 50vh;*/
+/*    }*/
+
+/*    .videosList__items {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+
+/*    }*/
+
+/*    .items {*/
+/*        !*padding: 10px;*!*/
+/*        !*background-color: red;*!*/
+/*        text-align: start;*/
+/*    }*/
+
+
+/*    .items__link {*/
+/*        display: flex;*/
+/*        align-items: start;*/
+/*        color: #ffffff;*/
+/*        text-decoration: none;*/
+/*        font-family: 'Montserrat', sans-serif;*/
+/*        font-weight: bold;*/
+/*        font-size: 16px;*/
+/*        transition: .4s;*/
+/*    }*/
+
+/*    .items__link:hover {*/
+/*        padding-left: 15px;*/
+/*        text-decoration: none;*/
+/*        color: #991430;*/
+/*        !*border-left: 2px solid #991430;*!*/
+/*    }*/
+
+/*}*/
 
 @media only screen
 and (min-device-width: 570px)
