@@ -10,6 +10,7 @@
     background-size: cover;
     background-position:center center;
 
+    filter: grayscale(100%);
 }
 
 .biography {
@@ -46,6 +47,8 @@
 
     /*filter: grayscale(90%);*/
 }
+
+
 
 @media screen and (max-width: 568px) {
 
