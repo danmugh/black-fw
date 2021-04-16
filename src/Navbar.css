@@ -121,3 +121,15 @@
         /*background-color: #6b5414;*/
     }
 }
+
+@media screen and (min-width: 700px) {
+
+    /* For iPad, iPad Pro */
+
+    .black__police {
+        width: 15vw;
+        height: 10vh;
+        object-fit: cover;
+
+    }
+}
