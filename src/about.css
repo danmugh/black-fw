@@ -2,7 +2,14 @@
     padding-left: 15vw;
     padding-right: 15vw;
 
-    background-color: black;
+    /*background-color: black;*/
+
+    height: 65vh;
+
+    background-image: url('./assets/profile__test.png');
+    background-size: cover;
+    background-position:center center;
+
 }
 
 .biography {
@@ -33,29 +40,81 @@
 
 .profile {
 
-    background-image: url('./assets/img__3.jpeg');
-    background-size: cover;
-    background-position:center center;
+    /*background-image: url('./assets/img__3.jpeg');*/
+    /*background-size: cover;*/
+    /*background-position:center center;*/
 
-    /*-webkit-filter: grayscale(90%);*/
-    filter: grayscale(90%);
+    /*filter: grayscale(90%);*/
 }
 
 @media screen and (max-width: 568px) {
 
     .aboutPage__container {
-        padding-left: 5vw;
-        padding-right: 5vw;
 
-        background-color: black;
+        padding-left: 5vw;
+        padding-right: 0vw;
+
+        height: 84vh;
+
+        /*background-color: black;*/
+
+        background-image: url('./assets/profile__background__3.png');
+        background-size: cover;
+        background-position:center center;
+
+        filter: grayscale(95%);
     }
 
     .biography p {
         /*font-family: 'Raleway', sans-serif;*/
         /*font-size: 20px;*/
         font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         color: #ffffff;
         line-height: 1.4;
     }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+    /*Like iPad */
+
+    .aboutPage__container {
+        padding-left: 5vw;
+        padding-right: 0vw;
+
+        height: 50vh;
+
+        /*background-color: black;*/
+
+        background-image: url('./assets/profile__background__2.png');
+        background-size: cover;
+        background-position:center center;
+
+        /*filter: grayscale(90%);*/
+    }
+
+
+}
+
+@media screen and (min-height: 1200px) {
+
+    /*Like iPad Pro */
+
+    .aboutPage__container {
+        padding-left: 15vw;
+        padding-right: 15vw;
+
+        height: 40vh;
+
+        /*background-color: black;*/
+
+        background-image: url('./assets/profile__background__2.png');
+        background-size: cover;
+        background-position:center center;
+
+        /*filter: grayscale(90%);*/
+    }
+
+
 }
