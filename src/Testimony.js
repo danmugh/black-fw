@@ -58,7 +58,7 @@ const content = [
 const Testimony = () => (
     <div>
         <Slider className="slider-wrapper"
-                autoplay={2000}
+                // autoplay={2000}
         >
             { content.map((item, index) => (
                 <div

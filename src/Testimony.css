@@ -165,7 +165,6 @@
     margin-right: 18vw;
 }
 
-
 @media screen and (max-width: 480px) {
 
     .span__avatar {
@@ -185,7 +184,17 @@
 
 }
 
-@media (max-height: 830px) {
+@media screen and (max-height: 815px)  {
+
+    /* For my PC */
+
+    .slider-wrapper, .slide {
+        height: calc(55vh - 45px);
+    }
+}
+
+
+@media only screen and (max-width: 500px) and (max-height: 830px) {
 
     /*Pixel 2XL*/
 
@@ -195,7 +204,7 @@
 
 }
 
-@media (max-height: 815px) {
+@media  only screen and (max-width: 500px) and (max-height: 815px)  {
 
     /*iPhone X*/
 
@@ -204,19 +213,19 @@
     }
 }
 
-@media (max-height: 700px) {
+@media only screen and (max-width: 500px) and (max-height: 700px) {
     .slider-wrapper, .slide {
         height: calc(75vh - 45px);
     }
 }
 
-@media (max-height: 650px) {
+@media only screen and (max-width: 500px) and (max-height: 650px) {
     .slider-wrapper, .slide {
         height: calc(80vh - 45px);
     }
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
     .slider-content .inner h1 {
         letter-spacing: 5px;
         font-size: 26px;
