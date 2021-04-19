@@ -10,6 +10,8 @@
     overflow: hidden;
     background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);
 
+    /*background: linear-gradient(180deg, rgba(250,13,13,1) 34%, rgba(230,14,14,0.45281862745098034) 89%);*/
+
     /*background-color: #000000;*/
     transition-timing-function: ease-in;
     transition: all 0.5s;

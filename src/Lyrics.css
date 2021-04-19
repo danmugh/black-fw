@@ -1,0 +1,54 @@
+.Lyrics__container {
+    background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*-webkit-filter: grayscale(90%);*/
+    /*filter: grayscale(90%);*/
+
+    /*width: 100vw;*/
+    height: 60vh;
+    min-height: 500px;
+
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.Lyrics__content {
+    /*background-color: red;*/
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.Lyrics__content h3 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 22px;
+    /*color: #111;*/
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+}
+
+.Lyrics__content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.modal__style {
+    background-color: rgba(0,0,0,0.45281862745098034);
+
+}
+
+.body__style {
+    background-color: darkred;
+}

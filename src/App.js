@@ -9,6 +9,7 @@ import Gallery from "./Gallery";
 import GallerySmallDevice from "./Gallery2";
 import Videos from "./Videos";
 import Testimony from "./Testimony";
+import Lyrics from "./Lyrics";
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
       <Band />
 
       <Testimony />
+
+      <Band />
+      <Lyrics />
+      <Band />
     </div>
   );
 }
