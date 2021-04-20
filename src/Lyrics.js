@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-// import { Modal, Button } from 'antd';
 import "./Lyrics.css";
 import { lyricsData } from "./LyricsData";
 
-// import img from "./assets/testimony__3.jpeg";
-// import { FireOutlined } from "@ant-design/icons";
 
 const Lyrics = () => {
     // const [visible, setVisible] = useState(false);
@@ -27,7 +24,7 @@ const Lyrics = () => {
         <div className="Lyrics__container" >
             <div className="Lyrics__content" >
                 <h3>ALL LYRICS</h3>
-                <p >Lorem ipsum we'll play you some music.Remember to book copy your lyrics!</p>
+                <p >Lorem ipsum we'll play you some music.Remember to copy your lyrics!</p>
 
                 <div className="Lyrics__accordion" >
                     <form>
@@ -44,7 +41,7 @@ const Lyrics = () => {
                                             tabIndex={indexCount(index)}
                                         >
                                             <span className="title-wrapper" >{tab.title}
-                                                <span className={ active === index  ? 'plus' : 'minus'}></span>
+                                                <span className={ active === index  ? 'minus' : 'plus'}></span>
                                             </span>
                                         </a>
                                     </div>
