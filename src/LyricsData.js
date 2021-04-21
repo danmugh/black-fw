@@ -180,13 +180,13 @@ export const lyricsData = [
                     Mama my language, my success, my beauty, my all my everything(My all my
                     everything)</strong></p>
                 <p>[Chorus] : Black FW</p>
-                <p>[Interlude: Del Claude]
-                    For your example
+                <p>[Interlude] : Del Claude </p>
+                <p> For your example
                     Your teaching
                     You’ll be my everything
                     I go love you forever
                     You’ll be my number one </p>
-                <p>[Verse 2]: Fresh MC</p>
+                <p>[Verse 2] : Fresh MC</p>
                 <p>Mama Africa plus forte que toutes
                     Rien ne vaut plus cher que ton vrai amour
                     T’es la source l’affection et l’éducation
@@ -199,8 +199,8 @@ export const lyricsData = [
                     T’as la beauté naturelle originale
                     Et malgré ta souffrance tu restes vitale <strong>Tu restes vitale, tu restes vitale et
                         malgré ta souffrance tu restes vitale</strong></p>
-                <p>[Chorus]: Black FW</p>
-                <p>[Outro]: Del Claude , Fresh MC & Black FW</p>
+                <p>[Chorus] : Black FW</p>
+                <p>[Outro] : Del Claude , Fresh MC & Black FW</p>
                 <p><em>Je parle de la femme
                     Je parle de ta sœur
                     Je parle de ta mère et toi tu fais semblant
@@ -213,6 +213,75 @@ export const lyricsData = [
     },
     {
         title: 'Black Mamba',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum sollicitudin eros, non sagittis sapien consequat vel. Praesent vel tortor ac mi placerat condimentum. Donec dictum posuere odio vel feugiat. Aenean sed sem tincidunt, rhoncus magna sit amet, convallis justo. Curabitur vitae imperdiet magna, non pharetra est. Proin eget auctor.'
+        description: (
+            <div>
+                <p>[Intro ] :</p>
+                <p>Splesh
+                   Skuda</p>
+                <p>[Verse 1] :</p>
+                <p>From high school to NBA
+                    Many people don’t dey with us
+                    Struggles and pains
+                    We had to face
+                    Life no be easy
+                    When you try yourself
+                    What can I do ?
+                    Man, I don’t know
+                    Had so many decisions
+                    Wake up in the morning
+                    Trynna reach my goal
+                    Things no be easy
+                    Lai Lai
+                    I wanna fly and jump with my music
+                </p>
+                <p>[Chorus] :</p>
+                <p>I wanna rock with my music like Black Mamba
+                    Black Mamba Black Mamba ah ah
+                    I wanna jump with my music like Black Mamba
+                    Black Mamba Black Mamba ah ah
+                    I wanna rock with my music like Black Mamba
+                    Black Mamba Black Mamba ah ah
+                    I wanna jump with my music like Black Mamba
+                    Black Mamba Black Mamba ah ah</p>
+                <p>[Verse 2]</p>
+                <p>Fetchin’ money
+                    The scarce commodity
+                    We don’t know how to deal with it
+                    Strivin’ everyday na reality
+                    Life is like a ball intimacy
+                    Oh na music
+                    Make I make the money
+                    Fly to the sky
+                    Live like Kobe
+                    Try to survive
+                    Oh Black Mamba
+                    Rеst in Peace
+                    Just becausе you dey on the top</p>
+                <p>[Chorus]</p>
+                <p>[Verse 3] :</p>
+                <p>Live with nobody beside
+                    Is a bad thing
+                    Pride to be fame
+                    Is a mad thing
+                    Life is like a ball intimacy
+                    Oh na music
+                    Make I make the money
+                    Fly to the sky
+                    Live like Kobe
+                    Try to survive
+                    Oh Black Mamba
+                    Rest in Peace
+                    Just because you dey on the top</p>
+                <p>[Chorus]</p>
+                <p>[Outro ] :</p>
+                <p>Just because you dey on the top
+                    From high school to NBA
+                    Many people don’t dey with us
+                    Struggles and pains
+                    We had to face
+                    Life no be easy
+                    When you try yourself</p>
+            </div>
+        )
     },
 ]

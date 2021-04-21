@@ -1,0 +1,186 @@
+.contact__container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    /*background-color: darkred;*/
+}
+
+.contact__text {
+    padding-bottom: 30px;
+}
+
+.contact__text h3 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 22px;
+    /*color: #111;*/
+    color: #000000;
+    font-family: 'Cinzel', serif;
+}
+
+.contact__text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.0;
+}
+
+.contact__infos {
+    background-color: #5fc328;
+
+
+}
+
+
+.contactBox {
+    display: flex;
+}
+
+
+.icon {
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /*background: #fff;*/
+    border: 3px solid black;
+    min-width: 60px;
+    height: 60px;
+}
+
+.text {
+    text-align: start;
+    margin-left: 20px;
+    line-height: 1;
+    padding-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 16px;
+    /*line-height: 1;*/
+}
+
+.contact__form {
+    background-color: #0e15a4;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.form {
+    display: block;
+
+    padding-top: 50px;
+    background-color: #c82767;
+}
+
+.input {
+    width: 20vw;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+/*.contact {*/
+/*    position: relative;*/
+/*    min-height: 100vh;*/
+/*    padding: 50px 100px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*    background: url('https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
+/*    background-size: cover;*/
+
+
+/*}*/
+
+/*.contact .content {*/
+/*    max-width: 800px;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*.contact .content h2 {*/
+/*    font-size: 36px;*/
+/*    font-weight: 500;*/
+/*    color: #fff;*/
+
+/*}*/
+
+/*.contact .content p {*/
+/*    font-weight: 300;*/
+/*    color: #fff;*/
+
+/*}*/
+
+/*.container {*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin-top: 30px;*/
+
+/*}*/
+
+/*.container .contactInfo {*/
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+
+/*}*/
+
+/*.container .contactInfo .box {*/
+/*    position: relative;*/
+/*    padding: 20px 0;*/
+/*    display: flex;*/
+
+/*}*/
+
+/*.container .contactInfo .box .icon {*/
+/*    min-width: 60px;*/
+/*    height: 60px;*/
+/*    background: #fff;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 50%;*/
+/*    font-size: 22px;*/
+
+/*}*/
+
+/*.container .contactInfo .box .text {*/
+/*    display: flex;*/
+/*    margin-left: 20px;*/
+/*    font-size: 16px;*/
+/*    color: #fff;*/
+/*    flex-direction: column;*/
+/*    font-weight: 300;*/
+/*    */
+
+
+/*}*/
+
+/*.container .contactInfo .box .text h3 {*/
+/*    font-weight: 500;*/
+/*    color: #00bcd4;*/
+
+/*}*/
+
+
+
+

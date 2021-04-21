@@ -11,6 +11,8 @@
     position: relative;
     height: 55vh;
     overflow: hidden;
+
+    z-index: 300;
 }
 
 .slide {

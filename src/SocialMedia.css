@@ -207,6 +207,7 @@ a.ctrlBtn:focus, a.ctrl:focus { outline: none; }
         font: 1.5em/1.13 Verdana, sans-serif;
         transition: .5s;
         z-index: 999;
+
     }
 
     .ctrl {
