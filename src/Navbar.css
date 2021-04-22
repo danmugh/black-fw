@@ -35,7 +35,10 @@
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
+    padding: 0 1vw;
+
+
     height: 100%;
     cursor: pointer;
     text-decoration: none;
@@ -53,7 +56,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: -48px;
+
+    /*margin-left: 48px;*/
+    margin-left: 10vw;
+
+    /*background: chartreuse;*/
 }
 
 .menu__bars {
@@ -63,7 +70,9 @@
 .navBtn {
     display: flex;
     align-items: center;
-    margin-right: 140px;
+    /*margin-right: 140px;*/
+    margin-right: 10vw;
+
 }
 
 .navBtn__item {
@@ -100,8 +109,8 @@ and (max-device-width: 1030px) {
     /* For iPad, iPad Pro */
 
     .black__police {
-        width: 15vw;
-        height: 10vh;
+        width: 12vw;
+        height: 8vh;
         object-fit: cover;
 
     }
@@ -115,6 +124,42 @@ and (max-device-width: 1030px) {
         cursor: pointer;
         text-decoration: none;
 
+    }
+
+    .navMenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /*margin-right: -48px;*/
+
+        /*margin-left: 48px;*/
+        margin-left: 5vw;
+
+        /*background: chartreuse;*/
+    }
+
+    .navBtn {
+        display: flex;
+        align-items: center;
+        margin-right: 2vw;
+    }
+
+    .navBtn__item {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background: none;
+    }
+
+    .navBtn__item:hover {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background: none;
+    }
+
+    .navBtn__item:focus {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        background: none;
     }
 }
 

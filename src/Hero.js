@@ -15,14 +15,16 @@ const Hero = () => {
                         className="hero__image" />
                     <div className="hero__content" >
                         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <Router>
-                            <Link
-                                to="#"
-                                className="hero__button" >
-                                View Home
-                            </Link>
-                        </Router>
+
+
+                        {/*<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>*/}
+                        {/*<Router>*/}
+                        {/*    <Link*/}
+                        {/*        to="#"*/}
+                        {/*        className="hero__button" >*/}
+                        {/*        View Home*/}
+                        {/*    </Link>*/}
+                        {/*</Router>*/}
                     </div>
                 </div>
             </section>
