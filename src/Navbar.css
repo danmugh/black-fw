@@ -6,9 +6,11 @@
     z-index: 100;
     position: fixed;
     width: 100%;
-    box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
+    /*box-shadow: 0 05px 15px rgba(0, 0, 0, .4);*/
     overflow: hidden;
-    background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);
+    background: none;
+
+    /*background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);*/
 
     /*background: linear-gradient(180deg, rgba(250,13,13,1) 34%, rgba(230,14,14,0.45281862745098034) 89%);*/
 
@@ -17,6 +19,12 @@
     transition: all 0.5s;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
+}
+
+.nav__black {
+    box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
+    background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);
+
 }
 
 .logo {
@@ -35,7 +43,8 @@
 }
 
 .black__police {
-    width: 12vw;
+    /*width: 12vw;*/
+    width: 11vw;
     height: 12vh;
     object-fit: cover;
 }
@@ -57,11 +66,54 @@
     margin-right: 140px;
 }
 
+.navBtn__item {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: none;
+}
+
+.navBtn__item:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: none;
+}
+
+.navBtn__item:focus {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: none;
+}
+
 @media screen and (max-width: 900px) {
     .black__police {
         width: 14vw;
         height: 10vh;
         object-fit: cover;
+
+    }
+}
+
+@media only screen
+and (min-device-width: 760px)
+and (max-device-width: 1030px) {
+
+    /* For iPad, iPad Pro */
+
+    .black__police {
+        width: 15vw;
+        height: 10vh;
+        object-fit: cover;
+
+    }
+
+    .navLink {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 0 0.5rem;
+        height: 100%;
+        cursor: pointer;
+        text-decoration: none;
 
     }
 }
@@ -76,12 +128,19 @@
         z-index: 100;
         position: fixed;
         width: 100%;
-        box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
+        /*box-shadow: 0 05px 15px rgba(0, 0, 0, .4);*/
         overflow: hidden;
         /*background: linear-gradient(180deg, rgba(47,33,41,1) 49%, rgba(0,0,0,0.8029586834733894) 95%);*/
-        background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);
+        /*background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);*/
+
         transition-timing-function: ease-in;
         transition: all 0.5s;
+    }
+
+    .nav__black {
+        box-shadow: 0 05px 15px rgba(0, 0, 0, .4);
+        background: linear-gradient(180deg, rgb(19, 18, 18) 9%, rgba(0,0,0,0.8029586834733894) 89%);
+
     }
 
     .navMenu {
@@ -124,14 +183,3 @@
     }
 }
 
-@media screen and (min-width: 700px) {
-
-    /* For iPad, iPad Pro */
-
-    .black__police {
-        width: 15vw;
-        height: 10vh;
-        object-fit: cover;
-
-    }
-}

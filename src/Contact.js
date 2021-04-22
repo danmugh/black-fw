@@ -26,8 +26,11 @@ const Contact = () => {
 
                 <div className="infos__wrapper" >
                     <div className="contactBox" >
-                        <span className="icon">
-                           <HomeOutlined />
+                        {/*<span className="icon">*/}
+                        {/*   /!*<HomeOutlined />*!/*/}
+                        {/*</span>*/}
+                        <span className="icon__maps">
+
                         </span>
                         <div className="text" >
                             <h4>Address</h4>
@@ -39,6 +42,9 @@ const Contact = () => {
                         <span className="icon">
                            <PhoneOutlined />
                         </span>
+                        {/*<span className="icon__phone">*/}
+
+                        {/*</span>*/}
                         <div className="text" >
                             <h4>Phone</h4>
                             <p>+243 992 008 205</p>
@@ -116,8 +122,11 @@ const Contact = () => {
                 <div className="contact__infos" >
                     <div className="infos__wrapper" >
                         <div className="contactBox" >
-                        <span className="icon">
-                           <HomeOutlined />
+                        {/*<span className="icon">*/}
+                        {/*   <HomeOutlined />*/}
+                        {/*</span>*/}
+                        <span className="icon__maps">
+
                         </span>
                             <div className="text" >
                                 <h4>Address</h4>
