@@ -18,5 +18,13 @@ export const menuData = [
     {
         title: 'Gallery',
         link: '/gallery'
-    }
+    },
+    {
+        title: 'Videos',
+        link: '/videos'
+    },
+    // {
+    //     title: 'Contact',
+    //     link: '/contact'
+    // }
 ]
