@@ -13,7 +13,7 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 160) {
+            if (window.scrollY > 50) {
                 handleShow(true)
             } else handleShow(false)
         });
