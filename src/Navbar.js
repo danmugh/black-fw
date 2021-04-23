@@ -66,8 +66,8 @@ const Navbar = () => {
 
             <div>
                 <nav className={menu ? 'nav-menu active' : 'nav-menu'}>
-                    <ul className='nav-menu-items'  >
-                        <li className='navbar-toggle'>
+                    <div className='nav-menu-items'  >
+                        <div className='navbar-toggle'>
                             <a href="#">
 
                                 <CloseOutlined
@@ -75,15 +75,76 @@ const Navbar = () => {
                                     className='close-icon'
                                     style={{ color: 'white', fontSize: '35px'}} />
                             </a>
-                        </li>
+                        </div>
 
+                        <div className="nav-list" >
+                            <ul>
+                                <li><a href="#hero" data-after="Home">Home</a></li>
+                                <li><a href="#about" data-after="About">About</a></li>
+                                <li><a href="#band" data-after="Band">Band</a></li>
+                                <li><a href="#lyrics" data-after="Lyrics">Lyrics</a></li>
+                                <li><a href="#image" data-after="Image">Image</a></li>
+                                <li><a href="#gallery" data-after="Gallery">Gallery</a></li>
+                                <li><a href="#contact" data-after="Contact">Contact</a></li>
+                            </ul>
+                        </div>
 
-                    </ul>
+                    </div>
                 </nav>
             </div>
 
         </nav>
     );
 };
+
+// <div className="nav-list">
+//     <ul>
+//
+//         <Router>
+//             <li>
+//                 <Link to="#hero"
+//                       key="01"
+//                       data-after="Home"
+//                       className="navLink">
+//                     Home
+//                 </Link>
+//                 {/*<a href="#hero" data-after="Home">Home</a>*/}
+//             </li>
+//             <li>
+//                 <Link to=""
+//                       key="02"
+//                       data-after="About"
+//                       className="navLink">
+//                     About us
+//                 </Link>
+//             </li>
+//             <li>
+//                 <Link to=""
+//                       key="03"
+//                       data-after="Band"
+//                       className="navLink">
+//                     Band
+//                 </Link>
+//             </li>
+//             <li>
+//                 <Link to=""
+//                       key="04"
+//                       data-after="Gallery"
+//                       className="navLink">
+//                     Gallery
+//                 </Link>
+//             </li>
+//             <li>
+//                 <Link to=""
+//                       key="05"
+//                       data-after="Videos"
+//                       className="navLink">
+//                     Videos
+//                 </Link>
+//             </li>
+//         </Router>
+//
+//     </ul>
+// </div>
 
 export default Navbar;
