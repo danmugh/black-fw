@@ -1,3 +1,16 @@
+.news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    padding-right: 15vw;
+    padding-left: 15vw;
+
+    /*height: 40vh;*/
+
+    /*background: darkred;*/
+
+}
+
 
 .news__text {
     padding-bottom: 30px;
@@ -18,19 +31,6 @@
     font-weight: 600;
     color: #000000;
     line-height: 1.0;
-}
-
-.news {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    padding-right: 15vw;
-    padding-left: 15vw;
-
-    /*height: 40vh;*/
-
-    /*background: darkred;*/
-
 }
 
 .news__infos {
@@ -99,7 +99,7 @@
 }
 
 .card:hover .picture .mask {
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .card .content {
@@ -116,6 +116,7 @@
 
 /*Very important*/
 .card:hover .content .inner {
+    /*transform: translateY(-105px);*/
     transform: translateY(-105px);
 }
 
@@ -134,6 +135,8 @@
     font-size: 25px;
     font-weight: bold;
     margin: 0;
+    font-family: 'Marcellus', serif;
+
 }
 
 .card .content .subtitle {
@@ -142,6 +145,7 @@
     font-weight: normal;
     margin: 10px 0;
     opacity: 0.95;
+    font-family: 'Marcellus', serif;
 }
 
 /*Very important*/
@@ -166,7 +170,12 @@
     transition: all .2s .1s;
 }
 
+.card:hover .fixed {
+    opacity: 0;
+}
+
 .card .fixed {
+
     position: absolute;
     bottom: 30px;
     padding: 15px 20px;
@@ -192,3 +201,133 @@
     padding-left: 4vw;
 }
 
+.card__container {
+
+    /*max-width: 350px;*/
+}
+
+/*@media only screen*/
+/*and (min-device-width: 768px)*/
+/*and (max-device-width: 1024px)*/
+
+
+@media only screen
+and (min-device-width: 760px)
+and (max-device-width: 1020px) {
+
+    /* Even for iPad */
+
+    .news {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        padding-right: 10vw;
+        padding-left: 10vw;
+
+
+    }
+
+    .card .content .text {
+        /*background: #c4afbc;*/
+
+        width: 100%;
+        right: 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #555;
+        opacity: 0;
+        line-height: 1.4;
+        transition: all .1s;
+        position: absolute;
+    }
+
+
+    .card .content .title {
+
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        font-family: 'Marcellus', serif;
+
+    }
+
+    .card .content .subtitle {
+        font-size: 16px;
+        color: #EE5C35;
+        font-weight: normal;
+        margin: 10px 0;
+        opacity: 0.95;
+        font-family: 'Marcellus', serif;
+    }
+}
+
+@media screen and (max-width: 759px) {
+
+    .news {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        padding-right: 4vw;
+        padding-left: 4vw;
+
+
+    }
+
+    .card .content .text {
+        /*background: #c4afbc;*/
+
+        width: 100%;
+        right: 0;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #555;
+        opacity: 0;
+        line-height: 1.4;
+        transition: all .1s;
+        position: absolute;
+    }
+
+
+    .card .content .title {
+
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        font-family: 'Marcellus', serif;
+
+    }
+
+    .card .content .subtitle {
+        font-size: 16px;
+        color: #EE5C35;
+        font-weight: normal;
+        margin: 10px 0;
+        opacity: 0.95;
+        font-family: 'Marcellus', serif;
+    }
+
+    .card .fixed {
+
+        /*background: darkred;*/
+
+        position: relative;
+        bottom: 0px;
+        padding: 0px 17px;
+
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .card .fixed .links .link {
+        margin-right: 0px;
+    }
+
+    .card .fixed .links {
+        color: #a09f9f;
+        font-size: 14px;
+        /*margin-bottom: 0;*/
+    }
+
+}
