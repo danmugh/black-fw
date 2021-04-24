@@ -43,8 +43,8 @@ const Navbar = () => {
                 className="menu__bars"
                 onClick={ handleMenu }
                 style={{ fontSize: '30px',
-                        color: 'white',
-                        display: `${menu ? 'none' : 'block' }` }} />
+                        // display: `${menu ? 'none' : 'block' }`,
+                        color: 'white' }} />
 
             {/*<div></div>*/}
 

@@ -11,6 +11,7 @@ import Videos from "./Videos";
 import Testimony from "./Testimony";
 import Lyrics from "./Lyrics";
 import Contact from './Contact';
+import News from "./News";
 
 
 function App() {
@@ -42,11 +43,12 @@ function App() {
 
       <Testimony />
 
-      <Band />
+      <News />
       <Lyrics />
       {/*<Band />*/}
 
       <Contact />
+      {/*<News />*/}
     </div>
   );
 }

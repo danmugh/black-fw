@@ -163,7 +163,7 @@ const Contact = () => {
                             placeholder="Enter your name"
                             className="input"
                             // size="small"
-                            // prefix={<UserOutlined />}
+                            prefix={<UserOutlined />}
                         />
                         <br />
                         <br />
@@ -171,7 +171,7 @@ const Contact = () => {
                             type="email"
                             placeholder="Enter your email"
                             className="input"
-                            // prefix={<UserOutlined />}
+                            prefix={<MailOutlined />}
                         />
                         <br />
                         <br />

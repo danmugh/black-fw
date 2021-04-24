@@ -290,9 +290,9 @@
     max-width: 120px;
     min-width: 115px;
 
-    height: 2.7vw;
-    max-height: 43px;
-    min-height: 40px;
+    height: 2.5vw;
+    max-height: 42px;
+    min-height: 37px;
 
     border-radius: 20px;
     /*padding-bottom: 10px;*/
@@ -385,7 +385,7 @@
 
         overflow: hidden;
         border-radius: 20px;
-        padding-left: 15px;
+        padding-left: 12px;
         border: 1px solid black;
         /*border: 2px solid #ffffff;*/
 
