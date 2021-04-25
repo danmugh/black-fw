@@ -3,8 +3,8 @@ import "./Contact.css";
 import { Row, Col, Input, Button } from 'antd';
 import { HomeOutlined, MailOutlined, PhoneOutlined, UserOutlined, SendOutlined } from "@ant-design/icons";
 import TextArea from "antd/es/input/TextArea";
-import Gallery from "./Gallery";
-import GallerySmallDevice from "./Gallery2";
+import Gallery from "../Gallery/Gallery";
+import GallerySmallDevice from "../Gallery/Gallery2";
 
 
 const Contact = () => {

@@ -182,8 +182,10 @@
 }
 
 .card .fixed .links {
-    color: #999;
+    color: #8f8d8d;
     font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     /*margin-bottom: 0;*/
 }
 

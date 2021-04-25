@@ -38,7 +38,7 @@
 }
 
 .contact__infos {
-    background-image: url('./assets/vidz__3.jpeg');
+    background-image: url('../../assets/vidz__3.jpeg');
     background-size: cover;
     background-position:center center;
 
@@ -87,7 +87,7 @@
 }
 
 .icon__maps {
-    background-image: url('./assets/maps__3.png');
+    background-image: url('../../assets/maps__3.png');
     background-size: cover;
     background-position:center center;
 
@@ -106,7 +106,7 @@
 }
 
 .icon__phone {
-    background-image: url('./assets/phone__2.png');
+    background-image: url('../../assets/phone__2.png');
     background-size: cover;
     background-position:center center;
 
@@ -328,7 +328,7 @@
     .contact__infos {
         /*width: 100vw;*/
 
-        background-image: url('./assets/vidz__3.jpeg');
+        background-image: url('../../assets/vidz__3.jpeg');
         background-size: cover;
         background-position:center center;
 

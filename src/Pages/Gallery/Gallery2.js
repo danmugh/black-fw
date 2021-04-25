@@ -3,19 +3,19 @@ import 'swiper/swiper-bundle.css';
 import "./Gallery2.css";
 import Swiper from "swiper";
 
-import Image__3 from "./assets/img__3.jpeg";
-import Image__2 from "./assets/img__2.jpg";
-import Image__4 from "./assets/img__4.jpeg";
-import Image__5 from "./assets/img__5.jpeg";
-import Image__6 from "./assets/img__6.jpeg";
-import Image__7 from "./assets/img__7.jpeg";
-import Image__8 from "./assets/img__8.JPG";
-import Image__9 from "./assets/img__9.jpg";
-import Image__10 from "./assets/img__10.jpg";
-import Image__11 from "./assets/img__11.JPG";
-import Image__12 from "./assets/img__12.jpg";
-import Image__13 from "./assets/img__13.jpg";
-import Image__14 from "./assets/img__14.jpg";
+import Image__3 from "../../assets/img__3.jpeg";
+import Image__2 from "../../assets/img__2.jpg";
+import Image__4 from "../../assets/img__4.jpeg";
+import Image__5 from "../../assets/img__5.jpeg";
+import Image__6 from "../../assets/img__6.jpeg";
+import Image__7 from "../../assets/img__7.jpeg";
+import Image__8 from "../../assets/img__8.JPG";
+import Image__9 from "../../assets/img__9.jpg";
+import Image__10 from "../../assets/img__10.jpg";
+import Image__11 from "../../assets/img__11.JPG";
+import Image__12 from "../../assets/img__12.jpg";
+import Image__13 from "../../assets/img__13.jpg";
+import Image__14 from "../../assets/img__14.jpg";
 
 
 

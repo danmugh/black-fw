@@ -3,7 +3,7 @@ import "./Navbar.css"
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { menuData } from "./menuData";
 import { MenuFoldOutlined, CloseOutlined } from "@ant-design/icons";
-import Logo from "./assets/Police BLACK FW.png"
+import Logo from "../../assets/Police BLACK FW.png"
 import { Button } from 'antd';
 
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                         // display: `${menu ? 'none' : 'block' }`,
                         color: 'white' }} />
 
-            {/*<div></div>*/}
+            {/*<div> </div>*/}
 
             <div className="navMenu" >
                 {menuData.map((item, index) => (

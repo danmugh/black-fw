@@ -128,7 +128,7 @@
 }
 
 .Lyrics__accordion .minus {
-    content: url('./assets/line.svg');
+    content: url('../../assets/line.svg');
     width: 24px;
     height: 24px;
     transform: rotate(180deg);
@@ -139,7 +139,7 @@
 }
 
 .Lyrics__accordion .plus {
-    content: url('./assets/plus.svg');
+    content: url('../../assets/plus.svg');
     width: 24px;
     height: 24px;
     transform: rotate(90deg);

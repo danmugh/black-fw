@@ -1,17 +1,17 @@
 
 import './App.css';
-import Navbar from "./Navbar";
-import SocialMedia from "./SocialMedia";
-import Hero from "./Hero";
-import About from "./about";
-import Band from "./Band";
-import Gallery from "./Gallery";
-import GallerySmallDevice from "./Gallery2";
-import Videos from "./Videos";
-import Testimony from "./Testimony";
-import Lyrics from "./Lyrics";
-import Contact from './Contact';
-import News from "./News";
+import Navbar from "./Pages/Menu/Navbar";
+import SocialMedia from "./UI/SocialMedia";
+import Hero from "./Pages/Home/Hero";
+import About from "./Pages/About/about";
+import Band from "./Pages/Band/Band";
+import Gallery from "./Pages/Gallery/Gallery";
+import GallerySmallDevice from "./Pages/Gallery/Gallery2";
+import Videos from "./Pages/Videos/Videos";
+import Testimony from "./Pages/Testimony/Testimony";
+import Lyrics from "./Pages/Lyrics/Lyrics";
+import Contact from './Pages/Contact/Contact';
+import News from "./Pages/News/News";
 
 
 function App() {

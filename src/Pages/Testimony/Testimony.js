@@ -4,13 +4,13 @@ import 'react-animated-slider/build/horizontal.css';
 import './slider-animations.css';
 import './Testimony.css';
 
-import Quote from "./assets/quote__2.png";
-import Bg1 from "./assets/testimony__1.jpeg";
-import Bg2 from "./assets/testimony__2.jpeg";
-import Bg3 from "./assets/testimony__3.jpeg";
-import Bg4 from "./assets/testimony__4.jpeg";
-import Bg5 from "./assets/testimony__5.jpeg";
-import Bg6 from "./assets/testimony__6.jpeg";
+import Quote from "../../assets/quote__2.png";
+import Bg1 from "../../assets/testimony__1.jpeg";
+import Bg2 from "../../assets/testimony__2.jpeg";
+import Bg3 from "../../assets/testimony__3.jpeg";
+import Bg4 from "../../assets/testimony__4.jpeg";
+import Bg5 from "../../assets/testimony__5.jpeg";
+import Bg6 from "../../assets/testimony__6.jpeg";
 
 import {Avatar} from "antd";
 
