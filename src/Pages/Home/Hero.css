@@ -180,12 +180,30 @@
 
 @media screen and (max-width: 480px) {
 
-    .hero__content {
-        position: relative;
-        left: -27px;
-        z-index: 10;
+    .hero__wrapper {
 
-        /*background-color: red;*/
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+
+    }
+
+    .hero__content {
+        /*background: darkred;*/
+
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        max-width: 1600px;
+        width: calc(100% - 100px);
+
+        top: 60px;
+        left: -27px;
+
+        color: #fff;
+
     }
 
     .hero__button {
