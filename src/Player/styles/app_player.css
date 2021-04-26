@@ -47,4 +47,21 @@
   /*background: #40e9c7;*/
 }
 
+.band__bigSize {
+  display: block;
+}
+
+.small__bigSize {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .band__bigSize {
+    display: none;
+  }
+
+  .small__bigSize {
+    display: block;
+  }
+}
 

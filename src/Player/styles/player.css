@@ -7,7 +7,10 @@
 .player {
     /*background: darkred;*/
 
-    min-height: 10vh;
+    /*min-height: 80px;*/
+    min-height: 120px;
+    /*min-height: 10vh;*/
+
     width: 50vw;
 
     display: flex;
@@ -96,11 +99,59 @@ input[type='range']::-moz-range-thumb {
     transform: translateX(0%);
     pointer-events: none;
 }
+
 @media screen and (max-width: 768px) {
+    /*.time-control {*/
+    /*    width: 90%;*/
+    /*}*/
+    /*.play-control {*/
+    /*    width: 60%;*/
+    /*}*/
+
+    .player-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 30px;
+        /*background: lightgreen;*/
+    }
+
+    .player {
+
+        /*min-height: 80px;*/
+        min-height: 120px;
+        /*min-height: 10vh;*/
+
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
     .time-control {
-        width: 90%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .time-control p {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
     .play-control {
+        /*background: blue;*/
+
         width: 60%;
+        /*height: 50px;*/
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
+
 }

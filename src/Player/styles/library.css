@@ -119,12 +119,43 @@
 /*    border: transparent;*/
 /*}*/
 
-@media screen and (max-width: 768px) {
-    .library {
-        width: 100vw;
+/*@media screen and (max-width: 768px) {*/
+
+
+/*}*/
+
+@media screen and (max-width: 325px) {
+
+    /*For iPhone 5 and frieends*/
+
+    .song-description {
+        /*background: #f61d5a;*/
+
+        width: 180px;
+        /*max-width: 250px;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
     }
-    .library-song img {
-        width: 20%;
-        height: 20%;
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+    /*For iPad and frieends*/
+
+    .song-description {
+        /*background: #f61d5a;*/
+
+        width: 480px;
+        /*max-width: 250px;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
     }
+
 }

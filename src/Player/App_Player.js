@@ -91,18 +91,50 @@ function App_Player() {
                 <p>Love music!</p>
                 <p>We have created a fictional band website. Lorem ipsum...</p>
             </div>
-            <Row>
-                <Col span={10} className="library__wrapper" >
-                    <Library
-                        songs={songs}
-                        currentSong={currentSong}
-                        setCurrentSong={setCurrentSong}
-                        setIsPlaying={setIsPlaying}
-                        isLibOpen={isLibOpen}
-                        setIsLibOpen={setIsLibOpen}
-                    />
-                </Col>
-                <Col span={14} className="song__wrapper" >
+
+            <div className="band__bigSize" >
+                <Row>
+                    <Col span={10} className="library__wrapper" >
+                        <Library
+                            songs={songs}
+                            currentSong={currentSong}
+                            setCurrentSong={setCurrentSong}
+                            setIsPlaying={setIsPlaying}
+                            isLibOpen={isLibOpen}
+                            setIsLibOpen={setIsLibOpen}
+                        />
+                    </Col>
+                    <Col span={14} className="song__wrapper" >
+                        <Song currentSong={currentSong} />
+                        <Player
+                            audioRef={audioRef}
+                            songs={songs}
+                            currentSong={currentSong}
+                            songState={songState}
+                            setSongState={setSongState}
+                            isPlaying={isPlaying}
+                            setIsPlaying={setIsPlaying}
+                            nextSong={() => handleChangeSong('next')}
+                            prevSong={() => handleChangeSong('previous')}
+                            buttonStatus={buttonStatus}
+                            isPlaylistRepeat={isPlaylistRepeat}
+                            setIsPlaylistRepeat={setIsPlaylistRepeat}
+                        />
+                    </Col>
+                </Row>
+            </div>
+
+            <div className="small__bigSize" >
+                <Library
+                    songs={songs}
+                    currentSong={currentSong}
+                    setCurrentSong={setCurrentSong}
+                    setIsPlaying={setIsPlaying}
+                    isLibOpen={isLibOpen}
+                    setIsLibOpen={setIsLibOpen}
+                />
+
+                <div>
                     <Song currentSong={currentSong} />
                     <Player
                         audioRef={audioRef}
@@ -118,8 +150,9 @@ function App_Player() {
                         isPlaylistRepeat={isPlaylistRepeat}
                         setIsPlaylistRepeat={setIsPlaylistRepeat}
                     />
-                </Col>
-            </Row>
+                </div>
+            </div>
+
 
 
             <audio
