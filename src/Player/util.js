@@ -1,21 +1,29 @@
 import { v4 as uuidv4 } from 'uuid';
+import grftl from "../assets/cover__grtfl FW.jpg";
+import talk from "../assets/cover__talk.jpg";
+import soundfile from "../assets/Fally Ipupa-boule cover by SOUL(ACCAPELA).mp3";
+
+
 function chillHop() {
 
     return [
         {
-            name: 'Beaver Creek',
-            cover:
-                'https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg',
+            name: 'GRTFL',
+            cover: grftl,
+                // 'https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg',
             artist: 'Aso, Middle School, Aviino',
-            audio: 'https://mp3.chillhop.com/serve.php/?mp3=10075',
+            audio: 'https://5000hits.com/songs/black-fw-talk-t-i-n-d/',
+
+            // audio: 'https://www.youtube.com/watch?v=jY4LwBUVyP4',
+            // audio: 'https://mp3.chillhop.com/serve.php/?mp3=10075',
             color: ['#205950', '#2ab3bf'],
             id: uuidv4(),
             active: true,
         },
         {
-            name: 'Daylight',
-            cover:
-                'https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg',
+            name: 'TALK T.I.N.D',
+            cover: talk,
+                // 'https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg',
             artist: 'Aiguille',
             audio: 'https://mp3.chillhop.com/serve.php/?mp3=9272',
             color: ['#EF8EA9', '#ab417f'],
@@ -62,7 +70,7 @@ function chillHop() {
             id: uuidv4(),
             active: false,
         },
-        //ADD MORE HERE
+
     ];
 }
 

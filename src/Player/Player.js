@@ -1,12 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./styles/player.css";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { PlayCircleFilled,
-    PauseCircleFilled,
-    RightOutlined,
-    LeftOutlined } from "@ant-design/icons";
-
 import {
     faPlay,
     faPause,
