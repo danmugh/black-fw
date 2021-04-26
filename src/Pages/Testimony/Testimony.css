@@ -12,6 +12,8 @@
     height: 55vh;
     overflow: hidden;
 
+    /*background: red;*/
+
     z-index: 300;
 }
 

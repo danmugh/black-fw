@@ -1,0 +1,130 @@
+.library {
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 20rem;*/
+    /*height: 100%;*/
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
+    background-color: white;
+    box-shadow: 2px 2px 50px #ccc;
+    overflow: scroll;
+
+
+}
+.library .heading-container {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.library h2 {
+    padding-left: 0.5rem;
+}
+.library button {
+    background: transparent;
+    width: 50px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 0.4rem;
+    cursor: pointer;
+    border: none;
+    padding: 0.1rem;
+    transition: all 0.3s ease;
+}
+.library button:hover {
+    color: white;
+    background: #03a9f4;
+}
+.active-library {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.library-songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem 0.4rem;
+    width: 100%;
+}
+.library-song {
+    display: flex;
+    flex-direction: row;
+    margin: 0.1rem 0rem;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #eef0f2;
+    overflow: clip;
+    transition: background 0.5s ease;
+}
+
+
+.library-song img {
+    width: 100px;
+    height: 70px;
+}
+.library-song:hover {
+    background-color: #67daff;
+}
+.active {
+    background: #03a9f4;
+}
+.active h3, .active h4 {
+    color: white;
+    font-weight: bold;
+}
+.song-description {
+    /*background: #f61d5a;*/
+
+    width: 250px;
+    /*max-width: 250px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.song-description h3 {
+    font-family: 'Marcellus', serif;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0.1rem;
+    font-size: 1rem;
+}
+.song-description h4 {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0.7rem;
+}
+
+/*Mdr*/
+
+/** {*/
+/*    scrollbar-width: thin;*/
+/*    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;*/
+/*}*/
+/**::-webkit-scrollbar {*/
+/*    width: 5px;*/
+/*    height: 100%;*/
+/*}*/
+/**::-webkit-scrollbar-track {*/
+/*    background: transparent;*/
+/*}*/
+/**::-webkit-scrollbar-thumb {*/
+/*    background-color: rgba(155, 155, 155, 0.5);*/
+/*    border-radius: 20px;*/
+/*    border: transparent;*/
+/*}*/
+
+@media screen and (max-width: 768px) {
+    .library {
+        width: 100vw;
+    }
+    .library-song img {
+        width: 20%;
+        height: 20%;
+    }
+}

@@ -12,6 +12,7 @@ import Testimony from "./Pages/Testimony/Testimony";
 import Lyrics from "./Pages/Lyrics/Lyrics";
 import Contact from './Pages/Contact/Contact';
 import News from "./Pages/News/News";
+import App_Player from "./Player/App_Player";
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
 
         { gallery }
 
-      <Band />
+        <App_Player />
       <Videos />
       <Band />
 
@@ -49,6 +50,9 @@ function App() {
 
       <Contact />
       {/*<News />*/}
+
+
+
     </div>
   );
 }

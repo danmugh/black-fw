@@ -1,0 +1,50 @@
+/*$primary-color: #03a9f4;*/
+/*$primary-light-color: #67daff;*/
+/*$primary-dark-color: #007ac1;*/
+/*$primary-text-color: #435b67;*/
+/*$secondary-text-color: #718792;*/
+
+/** {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*  font-family: 'Lato', sans-serif;*/
+/*}*/
+
+/*h1,*/
+/*h2 {*/
+/*  font-weight: 700;*/
+/*  color: #435b67;*/
+/*  padding: 1rem 0rem 1rem 0rem;*/
+/*}*/
+
+/*h3,*/
+/*h4 {*/
+/*  font-weight: 400;*/
+/*  color: #435b67;*/
+/*  padding: 1rem 0rem 1rem 0rem;*/
+/*}*/
+
+.App__wrapper {
+  /*background: navy;*/
+
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+  /*padding-top: 2vw;*/
+  padding-bottom: 2vw;
+
+}
+
+.library__wrapper {
+  /*background: #e74141;*/
+}
+
+.song__wrapper {
+  /*background: #40e9c7;*/
+}
+
+
