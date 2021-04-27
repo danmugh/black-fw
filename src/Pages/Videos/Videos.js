@@ -3,6 +3,8 @@ import "./Videos.css";
 import { PlayCircleOutlined } from "@ant-design/icons";
 import { Row, Col } from 'antd';
 import YouTube from "react-youtube";
+import Zoom from 'react-reveal/Zoom';
+
 
 const Videos = () => {
     const [trailerUrl, setTrailerUrl] = useState("YHGadROIUXE");
@@ -71,10 +73,12 @@ const Videos = () => {
                     {/*<span>WATCH MY</span>*/}
                     <span>WATCH MY</span>
                     {/*<span style={{ display: 'inline-block', width: '10px' }} > </span>*/}
-                    <span>
-                        <PlayCircleOutlined className="play__icon"
-                                            onClick={playHandle} />
-                    </span>
+                    <Zoom>
+                        <span>
+                            <PlayCircleOutlined className="play__icon"
+                                                onClick={playHandle} />
+                        </span>
+                    </Zoom>
                     {/*<span style={{ display: 'inline-block', width: '10px' }} > </span>*/}
                     <span>VIDEOS</span>
                 </div>

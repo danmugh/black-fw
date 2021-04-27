@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { Pagination, EffectCoverflow, A11y } from 'swiper';
 // import Swiper from 'react-id-swiper';
+import Zoom from 'react-reveal/Zoom';
 
 
 import 'swiper/components/effect-coverflow/effect-coverflow.min.css';
@@ -37,98 +38,101 @@ const Gallery = () => {
                 <p>We have created a fictional image website. Lorem ipsum...</p>
             </div>
 
-            <Swiper
-                spaceBetween={0}
-                slidesPerView={3}
-                style={{
-                    backgroundColor: 'black',
-                    height: '300px',
-                    width: '100VW'
-                }}
+            <Zoom duration={1500} >
+                <Swiper
+                    spaceBetween={0}
+                    slidesPerView={3}
+                    style={{
+                        backgroundColor: 'black',
+                        height: '300px',
+                        width: '100VW'
+                    }}
 
-                effect='coverflow'
-                grabCursor={true}
-                centeredSlides={false}
+                    effect='coverflow'
+                    grabCursor={true}
+                    centeredSlides={false}
 
-                EffectCoverflow
-                pagination={{ clickable: true }}
+                    EffectCoverflow
+                    pagination={{ clickable: true }}
 
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-            >
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__2} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__5} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__4} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__5} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__6} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__2} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__7} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__8} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__9} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__10} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__11} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__12} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__13} />
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide__1" >
-                    <img
-                        className="Gallery__image"
-                        src={Image__14} />
-                </SwiperSlide>
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__2} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__5} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__4} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__5} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__6} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__2} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__7} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__8} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__9} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__10} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__11} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__12} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__13} />
+                    </SwiperSlide>
+                    <SwiperSlide className="swiper-slide__1" >
+                        <img
+                            className="Gallery__image"
+                            src={Image__14} />
+                    </SwiperSlide>
 
 
-            </Swiper>
+                </Swiper>
+            </Zoom>
+
         </div>
 
     );

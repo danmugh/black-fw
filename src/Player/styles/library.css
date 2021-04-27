@@ -67,10 +67,10 @@
 .library-song:hover {
     background-color: #67daff;
 }
-.active {
+.activE {
     background: #03a9f4;
 }
-.active h3, .active h4 {
+.activE h3, .activE h4 {
     color: white;
     font-weight: bold;
 }

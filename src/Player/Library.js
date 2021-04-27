@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/library.css";
 
+
 import LibrarySong from './LibrarySong';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -29,8 +30,11 @@ const Library = ({
             {/*    */}
             {/*</div>*/}
             <br />
+
             <div className="library-songs">{renderSongItems()}</div>
+
         </div>
+
     );
 };
 

@@ -3,6 +3,7 @@ import 'swiper/swiper-bundle.css';
 import "./Gallery2.css";
 import Swiper from "swiper";
 
+
 import Image__3 from "../../assets/img__3.jpeg";
 import Image__2 from "../../assets/img__2.jpg";
 import Image__4 from "../../assets/img__4.jpeg";
@@ -16,6 +17,7 @@ import Image__11 from "../../assets/img__11.JPG";
 import Image__12 from "../../assets/img__12.jpg";
 import Image__13 from "../../assets/img__13.jpg";
 import Image__14 from "../../assets/img__14.jpg";
+import Zoom from "react-reveal/Zoom";
 
 
 
@@ -50,94 +52,97 @@ class Gallery2 extends Component {
                     <p>We have created a fictional image website. Lorem ipsum...</p>
                 </div>
 
-                <div className="swiper-container">
-                    <div className="swiper-wrapper">
+                <Zoom duration={1500} >
+                    <div className="swiper-container">
+                        <div className="swiper-wrapper">
 
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__2} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__3} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__4} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__5} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__6} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__4} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__2} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__7} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__8} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__9} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__10} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__11} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__12} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__13} />
-                        </div>
-                        <div className="swiper-slide" >
-                            <img
-                                className="Gallery__image"
-                                src={Image__14} />
-                        </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__2} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__3} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__4} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__5} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__6} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__4} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__2} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__7} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__8} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__9} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__10} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__11} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__12} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__13} />
+                            </div>
+                            <div className="swiper-slide" >
+                                <img
+                                    className="Gallery__image"
+                                    src={Image__14} />
+                            </div>
 
 
-                        {/*<div className="swiper-slide image__3" > </div>*/}
-                        {/*<div className="swiper-slide image__4" > </div>*/}
-                        {/*<div className="swiper-slide image__5" > </div>*/}
-                        {/*<div className="swiper-slide image__6" > </div>*/}
-                        {/*<div className="swiper-slide image__7" > </div>*/}
-                        {/*<div className="swiper-slide image__8" > </div>*/}
+                            {/*<div className="swiper-slide image__3" > </div>*/}
+                            {/*<div className="swiper-slide image__4" > </div>*/}
+                            {/*<div className="swiper-slide image__5" > </div>*/}
+                            {/*<div className="swiper-slide image__6" > </div>*/}
+                            {/*<div className="swiper-slide image__7" > </div>*/}
+                            {/*<div className="swiper-slide image__8" > </div>*/}
+                        </div>
                     </div>
-                </div>
+                </Zoom>
+
             </div>
 
         )
