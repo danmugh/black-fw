@@ -105,7 +105,7 @@ function App_Player() {
                         />
                     </Col>
                     <Col span={14} className="song__wrapper" >
-                        <Song currentSong={currentSong} />
+                        <Song currentSong={currentSong} isPlaying={isPlaying} />
                         <Player
                             audioRef={audioRef}
                             songs={songs}

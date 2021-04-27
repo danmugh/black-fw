@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import grftl from "../assets/cover__grtfl FW.jpg";
 import talk from "../assets/talk.png";
 import mama_africa from "../assets/mama_africa.jpeg";
+import mama_africa_2 from "../assets/mama_africa_2.jpeg";
 import money_mulla from "../assets/money_mulla.png";
 import notAvailable from "../assets/notAvailable.jpeg";
 
@@ -52,11 +53,11 @@ function chillHop() {
         },
         {
             name: 'Mama Africa',
-            cover: mama_africa,
+            cover: mama_africa_2,
                 // 'https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg',
             artist: 'Black Fw X Del Claude X Fresh MC',
             audio: Mama_Africa,
-            color: ['#EF8EA9', '#ab417f'],
+            color: ['#052932', '#1f8577'],
             id: uuidv4(),
             active: false,
         },
