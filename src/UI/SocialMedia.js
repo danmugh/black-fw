@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./SocialMedia.css";
 import { MediumOutlined,
     FacebookOutlined,
@@ -9,8 +9,18 @@ import { MediumOutlined,
 
 const SocialMedia = () => {
 
+    const [show, handleShow] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                handleShow(true)
+            } else handleShow(false)
+        });
+    }, [])
+
     return (
-        <div>
+        <div className={`${!show && 'hide_icon'}`} >
 
             <a
                 className='button ctrlBtn'

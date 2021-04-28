@@ -1,3 +1,6 @@
+.hide_icon {
+    display: none;
+}
 
 /* generic styles for button & circular menu */
 .ctrlBtn {
