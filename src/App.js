@@ -34,26 +34,24 @@ function App() {
       <Hero />
 
       <About />
-      {/*<Band />*/}
+
       <App_Player />
+
         { gallery }
 
-      <App_Player />
+      <Band />
+
       <Videos />
-      {/*<Band />*/}
+
       <News />
+
       <Testimony />
 
-      <App_Player />
+      <Band />
 
       <Lyrics />
 
-      {/*<Band />*/}
-
       <Contact />
-      {/*<News />*/}
-
-
 
     </div>
   );

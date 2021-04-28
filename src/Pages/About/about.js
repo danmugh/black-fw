@@ -8,7 +8,7 @@ const About = () => {
         <div className="aboutPage__container" >
             <Row>
                 <Col span={16} className="biography" >
-                    <Fade left>
+                    <Fade left duration={1500} >
                         <h3>WHO IS BLACK FW</h3>
                         <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore

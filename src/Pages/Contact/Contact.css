@@ -381,7 +381,7 @@
         /*max-height: 43px;*/
         /*min-height: 40px;*/
 
-        height: 35px;
+        height: 42px;
 
         overflow: hidden;
         border-radius: 20px;
@@ -396,11 +396,32 @@
 
         background: none;
         /*color: #ffffff;*/
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Marcellus', serif;
         font-weight: 800;
     }
 
+    .textArea {
+        /*width: 20vw;*/
+        /*max-width: 21vw;*/
+        /*height: 30vw;*/
+        overflow: hidden;
+        font-size: 15px;
+        color: #000000;
 
+        border-radius: 20px;
+        padding-left: 15px;
+        border: 1px solid black;
+        /*border: 2px solid  #ffffff;*/
+
+        /*color: #ffffff;*/
+        font-family: 'Marcellus', serif;
+        background: none;
+        /*background-color: rgba(255,255,255,0.24);*/
+
+        transition-timing-function: ease-in;
+        transition: all 0.5s;
+
+    }
 }
 
 

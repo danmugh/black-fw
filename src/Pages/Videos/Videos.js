@@ -85,34 +85,37 @@ const Videos = () => {
             </div>
             {
                 showVideosList &&
-                <div className="videosList__wrapper" >
-                    <Row>
-                        <Col span={7} className="videosList__items" >
-                            <div className="items">
-                                <a className="items__link" onClick={GRTFL} >
-                                    GRTFL
-                                </a>
-                                <a className="items__link" onClick={Talk} >
-                                    Talk T.I.N.D
-                                </a>
-                                <a  className="items__link" onClick={BlackMamba} >
-                                    Black Mamba
-                                </a>
-                                <a className="items__link" onClick={MamaAfirca} >
-                                    Mama Afirca
-                                </a>
-                                <a  className="items__link" onClick={BestBoys} >
-                                    Best Boys
-                                </a>
+                <Zoom>
+                    <div className="videosList__wrapper" >
+                        <Row>
+                            <Col span={7} className="videosList__items" >
+                                <div className="items">
+                                    <a className="items__link" onClick={GRTFL} >
+                                        GRTFL
+                                    </a>
+                                    <a className="items__link" onClick={Talk} >
+                                        Talk T.I.N.D
+                                    </a>
+                                    <a  className="items__link" onClick={BlackMamba} >
+                                        Black Mamba
+                                    </a>
+                                    <a className="items__link" onClick={MamaAfirca} >
+                                        Mama Afirca
+                                    </a>
+                                    <a  className="items__link" onClick={BestBoys} >
+                                        Best Boys
+                                    </a>
 
-                            </div>
-                        </Col>
-                        <Col span={17} className="videosList__youtube" >
-                            <YouTube videoId={trailerUrl} opts={opts}/>
-                        </Col>
+                                </div>
+                            </Col>
+                            <Col span={17} className="videosList__youtube" >
+                                <YouTube videoId={trailerUrl} opts={opts}/>
+                            </Col>
 
-                    </Row>
-                </div>
+                        </Row>
+                    </div>
+                </Zoom>
+
             }
 
         </div>
